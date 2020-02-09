@@ -17,23 +17,29 @@
         <div class="jumbotron">
             <h1>Guess a Number</h1>
         </div>
+            
         
-        <div id="directions" class="resetParas">
+        
+        <div id="directions" class="resultPars">
             Guess a number between 1 and 99 in seven attempts!
-            </br></br>
+            <br><br>
+            <!--Random number: <span id = "numberToGuess"></span> -->
             <label for="guessField">Enter a guess: </label>
             <input type="text" id="guessField" class="guessField">
             <input type="submit" value="Submit guess" class="guessSubmit">
             
-            </br></br>
+            <br><br>
             <p id="guesses"></p>
             <p id="lastResult"></p>
             <p id="lowOrHi"></p>
+            <p id="outOfBounds"></p>
+            <p id="wins"></p>
+            <p id="lose"></p>
             <button id='reset'>Reset</button>
             
         </div>
         
-        <script SRC = "js/functions.js"></script>
+        <script SRC="js/functions.js"></script>
         
         
     </body>
